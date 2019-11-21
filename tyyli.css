@@ -1,0 +1,22 @@
+ul {
+    list-style-image: url('yellow.png');
+  }
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.blueParagraph1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 5px;
+}
+
+.blueParagraph2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+  font-size: 20px;
+}
+
+.blueParagraph3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+}

@@ -1,49 +1,50 @@
 <!DOCTYPE html>
+
 <html>
     <head>
-        <meta charset="UTF-8">
-        <title>
-            Tyylitiedostoharjoituksia
-        </title>
+    
         <link rel="stylesheet" type="text/css" href="tyyli.css">
+        
+    <style>
+
+    #Yoinks { color:blueviolet;}
+
+    .blueParagraph {color:blue;}
+
+    </style>
     </head>
     <body>
-        <div class="alusta1">
-            <div class="alusta2">
-                <h1>Hello World!</h1>
-                <p>Lorem ipsum jne</p>
-            </div>
 
-            <div class="alusta3">
-                <h1>Hei maailma!</h1>
-                <p>Lorem ipsum jne</p>
-            </div>
+        <h1 style="color:blue;">heading</h1>
+        <p style="color:red;">pararrab</p>
+        <p class="blueParagraph1">London is the capital of England.</p>
+        <p class="blueParagraph2">Paris is the capital of France.</p>
+        <p class="blueParagraph3">Tokyo is the capital of Japan.</p>
+        <p id="Yoinks">tää juttu</p>
 
-            <div class="kategoriat">
-                <h2>Kategoriat</h2>
-                <ul>
-                    <li><a href="">kategoria 1</a></li>
-                    <li><a href="">kategoria 2</a></li>
-                    <li><a href="">kategoria 3</a></li>
-                    <li><a href="">kategoria 4</a></li>
-                </ul>
+
+        <ul>
+            <li><a href="https://lichess.org/">link text</a></li>
+            <li><a href="https://lichess.org/">link text</a></li>
+            <li><a href="https://lichess.org/">link text</a></li>
+            <li><a href="https://lichess.org/">link text</a></li>
+        </ul>
+
+        <form>
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstName">
             </div>
-            <form class="lomake">
-                <div class="lomake-tyylit">
-                    <label>Nimi: </label>
-                    <input type="text" name="nimi">
-                </div>
-                <div class="lomake-tyylit">
-                    <label>Email: </label>
-                    <input type="text" name="email">
-                </div>
-                <div class="lomake-tyylit">
-                    <label>Message: </label>
-                    <input type="text" name="viesti">
-                </div>
-                <br>
-                <input class="button" type="submit" value="Lähetä" name="">
-            </form>
-        </div>
+            <br>
+            <div>
+                <label>Message</label>
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="Email">
+            </div>
+        </form>
     </body>
 </html>
